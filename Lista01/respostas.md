@@ -1,5 +1,31 @@
 # pif.2026
 
+04. Erros: 
+segunda linha -> não deve colocar ';' quando usamos o #include
+Terceira linha -> o main esta com letra maiúscula e não pode, além de trocas as posições das chaves e parenteses
+Quinta linha -> Não colocou ""
+Sexta linha -> cout << endl é usado em c++, para pular linha em c usa \n
+
+05. Não esta correto. Esta faltando o uso do #include <stdio.h> e <stdlib.h> ara trazer o conteúdo de outros arquivos e assim conseguir usar a função prinf() e a função system(). Além disso esta faltando o int antes do main. E por fim esta faltando o return 0 para fechar o programa.
+
+06. Esta faltando #include <stdio.h> e <stdlib.h>. Esta faltando o int antes do main. No final da declaração das variáveis tem (:) no fim da linha e o certo é usar (;), além das variáveis estarem sendo separas por (;) e o certo é usar (,). Na função prinf ficou faltando fechar as "" e tem uma variável a mais (d) que não foi declarada antes.Caso o intuito seja que os números fiquem separados, tem que dar espaços nos %d. E por fim ficou o return 0 para finalizar o programa.
+
+07. 
+a) 
+    Bom dia! Shirley.
+b) Você tomou café?
+
+c) 
+
+A solução não existe! 
+Não insista.
+d) Duas     linhas     de     saída
+ou     uma?
+
+e)um 
+  dois
+  três
+
 08. Vai ser exibido a frase ""Primeiro programa"" e juntamente "Pressione qualquer tecla para continuar..." e aguardar a tecla ser pressionada e fechar o programa. 
 
 09. Vai ser exibido ""primeiro programa"" e depois "Pressione qulquer tecla para continuar..." e o copilador vai adotar os caracteres simples no %c e realizar suas ações. Já no segundo printf por não ter valor a ser guardado, não acontece nada. 

@@ -6,6 +6,7 @@ int main() {
 
     printf("O valor de pi é %1.3f\n", pi);
 
+    getchar();
     return 0;
 
 }
